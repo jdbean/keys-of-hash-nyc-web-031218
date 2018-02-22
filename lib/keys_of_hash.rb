@@ -3,6 +3,7 @@ class Hash
     hash.each do |key, value|
     puts key
   end
+  end
 end
 
 hash = {john: "lennon", paul: "mcartney", ringo: "star", george: "harrison"}
