@@ -6,6 +6,7 @@ class Hash
         matching_keys << key
       end
     end
+    matching_keys
   end
 end
 
