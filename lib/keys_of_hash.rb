@@ -1,7 +1,8 @@
 class Hash
   def keys_of(*arguments)
-    self.find_all do |key, value|
-      arguments.include?(value)
+    self.collect do |key, value|
+      if arguments.include?(value)
+      value
     end
   end
 end
