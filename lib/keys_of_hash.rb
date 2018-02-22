@@ -8,6 +8,6 @@ class Hash
   end
 end
 
-hash = {john: "lennon", paul: "mcartney", ringo: "star", george: "harrison"}
+# hash = {john: "lennon", paul: "mcartney", ringo: "star", george: "harrison"}
 
-puts hash.keys_of("harrison")
+# hash.keys_of("harrison")
