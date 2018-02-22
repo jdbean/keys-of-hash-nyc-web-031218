@@ -1,9 +1,10 @@
 class Hash
   def keys_of(*arguments)
-    hash.each
+    hash.each |key, value|
+    puts key
   end
 end
 
 hash = {john: "lennon", paul: "mcartney", ringo: "star", george: "harrison"}
 
-puts hash.keys_of
+puts hash.keys_of()
