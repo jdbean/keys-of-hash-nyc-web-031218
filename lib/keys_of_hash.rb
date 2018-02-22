@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
-    Hash.each do |key, value|
+    self.each do |key, value|
     puts key
     end
   end
