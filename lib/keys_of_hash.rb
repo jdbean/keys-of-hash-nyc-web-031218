@@ -9,7 +9,3 @@ class Hash
     matching_keys
   end
 end
-
-# hash = {john: "lennon", paul: "mcartney", ringo: "star", george: "harrison"}
-
-# hash.keys_of("harrison")
