@@ -5,3 +5,5 @@ class Hash
 end
 
 hash = {john: lennon, paul: mcartney, ringo: star, george: harrison}
+
+puts hash.keys_of
